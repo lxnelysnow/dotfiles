@@ -1,0 +1,107 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/Pictures/fastfetch/image2.png",
+    
+    "width": 25,
+    "padding": {
+        "top": 1,
+        "left": 3,
+    }
+  },
+  "display": {
+    "separator": ""
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "key": "\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc",
+      "keyColor": "white" 
+    },
+    {
+      "type": "title",
+      "format": "{user-name}@windsweptpeaks",
+      "key": "\ue602 PRFIL \uf2bd  ",
+      "keyColor": "38;2;183;175;224",
+    },
+    // Seperator
+    {
+      "type": "custom",
+      "key": "\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc",
+      "keyColor": "white" 
+    },
+    //
+    {
+      "type": "host",
+      "format": "twinkpad ཐིཋྀ",
+      "key": "\ue602 HOST! 󰇅  ",
+      "keyColor": "38;2;183;175;224",
+    },
+    {
+      "type": "os",
+      "format": "{pretty-name}",
+      "key": "\ue602 OPSYS \udb81\udc93  ",
+      "keyColor": "38;2;183;175;224",
+    },
+    {
+      "type": "kernel",
+      "key": "\ue602 KERNL \uf4bc  ",
+      "keyColor": "38;2;183;175;224",
+    }, 
+    // Seperator
+    {
+      "type": "custom",
+      "key": "\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc",
+      "keyColor": "white" 
+    },
+    //
+    {
+      "type": "wm",
+      "format": "{pretty-name}",
+      "key": "\ue602 WMNGR \udb80\udf79  "   ,
+      "keyColor": "38;2;183;175;224"
+    },
+    {
+      "type": "terminal",
+      "format": "{pretty-name} ᓚᘏᗢ",
+      "key": "\ue602 TRMAL \ue795  ",
+      "keyColor": "38;2;183;175;224"
+    },
+    {
+      "type": "shell",
+      "format": "{pretty-name}  ><>",
+      "key": "\ue602 SHELL \ue691  ",
+      "keyColor": "38;2;183;175;224"
+    },
+    // Seperator
+    {
+      "type": "custom",
+      "key": "\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc",
+      "keyColor": "white" 
+    },
+    //
+    {
+      "type": "uptime",
+      "key": "\ue602 UPTIM 󰅐  ",
+      "keyColor": "38;2;183;175;224"
+    },
+    {
+      "type": "custom",
+      "key": "\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc\ueacc",
+      "keyColor": "white" 
+    },
+    //
+    // {
+    //  "type": "disk",
+    //  "outputColor": "white",
+    //  "format": "",
+    //  "key": "\ue602 DISKS \uf07b ",
+    //  "keyColor": "38;2;183;175;224"
+    //},
+    {
+      "type": "colors",
+      "symbol": "diamond",
+      "keyColor": "38;2;183;175;224"
+    }
+  ]
+}
