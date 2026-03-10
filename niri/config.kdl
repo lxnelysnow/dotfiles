@@ -2,14 +2,14 @@
 input {
     keyboard {
         xkb {
-            layout "dk" // Use the German keyboard layout
+            layout "dk"
         }
-        numlock // Enable numlock on startup
+        numlock
     }
 
     touchpad {
-        tap // Enable tap-to-click
-        natural-scroll // Enable natural (macOS-style) scrolling
+        tap 
+        natural-scroll 
     }
 
     focus-follows-mouse
@@ -18,11 +18,10 @@ input {
 
 // ────────────── output ──────────────
 // You can run `niri msg outputs` to get the correct name for your displays.
-// You will have to remove "/-" and edit it before it takes effect.
 
 output "eDP-1" {
     mode "1920x1200@60.003" // Set resolution and refresh rate
-    scale 1 // No scaling (use 2 for HiDPI)
+    scale 1.0 
 }
 
 // ────────────── keybinds ──────────────
